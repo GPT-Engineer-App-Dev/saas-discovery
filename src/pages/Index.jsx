@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Facebook, Twitter, Instagram, GitHub } from "lucide-react";
+import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
 const Index = () => {
   return (
@@ -115,7 +115,7 @@ const Index = () => {
           <Facebook className="h-6 w-6" />
           <Twitter className="h-6 w-6" />
           <Instagram className="h-6 w-6" />
-          <GitHub className="h-6 w-6" />
+          <Linkedin className="h-6 w-6" />
         </div>
         <div className="text-center space-x-4">
           <a href="#" className="hover:underline">Privacy Policy</a>
